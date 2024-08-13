@@ -1,0 +1,68 @@
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Open Sans;
+  width: 94%;
+  height: 100%;
+  content: "";
+}
+.social-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.social-container {
+  border-top: solid 1px black;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 200px;
+  max-width: 1366px;
+}
+
+.icons {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 100%;
+}
+
+.media {
+  padding-top: 50px;
+  width: 100%;
+  grid-gap: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 100px;
+}
+
+.icons {
+  place-items: center;
+}
+
+.news-daily,
+.news-app,
+.news-email {
+  vertical-align: top;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.fb,
+.twitter,
+.ig {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+}
+
+.twitter a:hover {
+  color: white;
+}

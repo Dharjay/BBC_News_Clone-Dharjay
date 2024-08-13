@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Black+Ops+One&family=IBM+Plex+Sans:wght@700&family=Kanit:wght@700&family=Lexend+Deca&family=Montserrat:wght@300;400;500;800&family=Open+Sans:wght@300;500;600;700;800&family=Oswald:wght@700&family=Poppins:wght@700&family=Roboto+Condensed&family=Roboto:wght@400;500;900&display=swap");
+
+.navbar-fluid {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 93%;
+  max-width: 1366px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.mid-section ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+.mid-section li {
+  list-style-type: none;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.logo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 280px;
+}
+.sign-in {
+  margin-left: 10px;
+  width: 50%;
+}
+.mid-section {
+  flex: 1;
+}
+
+.search-bar input,
+button {
+  background-color: rgb(245, 245, 245);
+  border: solid 1px rgb(212, 212, 212);
+  height: 40px;
+}
+
+.search-bar button {
+  margin: -4px;
+  width: 50px;
+}
+
+input {
+  outline: none;
+  padding-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
